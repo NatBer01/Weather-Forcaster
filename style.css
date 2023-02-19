@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body{
+    background-color: lightcyan;
+    font-family: 'Rubik', sans-serif;
+}
+
+.toptitle{
+    padding: 10px;
+    text-align: center;
+}
+
+.search-container{
+    
+    position: relative;
+    display: flex;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search-box{
+
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+
+.search-box input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline:  none;
+    padding: 24px 20px;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: lightblue;
+}
+
+.search-box button i{
+    width: 25px;
+}
+
+.search-box button{
+    font-size: 20px;
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.locations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.locations div{
+    text-align: center;
+    padding: 15px;
+    background-color: lightblue; 
+    border-radius: 10px;
+}
+
+
+.locations div:nth-child(even){
+    background-color: lightgrey;
+}
+
+
+.locations button{
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.current{
+    
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+
+
+footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
