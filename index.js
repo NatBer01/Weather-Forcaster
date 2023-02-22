@@ -10,7 +10,7 @@ const app = {
     fetchWeather: (ev) => {
         let lat = document.getElementById('latitude').value;
         let lon = document.getElementById('longitude').value;
-        let key = '8d121e2b4624990b94191ac5332f8d01';
+        let key = '';
         let lang = 'en';
         let units = 'imperial';
         let url = 'https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&units=${units}'
